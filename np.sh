@@ -1,5 +1,7 @@
-read ip
+read -p "Enter IP which you want to attack" ip
+
 echo "enter \n1. for vibros attack\n2. for syn attack\n3. for Null  attack\n4. for null attack"
+
 read num
 
 if [ "$num" -eq 1 ];
